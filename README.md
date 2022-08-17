@@ -33,16 +33,16 @@ java -cp .;junit-complie.jar Main
 
 # Behaviors 
 - Addition operator(+) 
-  - (+ a b c d ...) == $a+b+c+d+ ...$ 
+  - (+ a b c d ...) returns $a+b+c+d+ ...$ 
   - (+) returns 0
 - Substraction operator(-) 
-  - (- a b c d ...) == $a-b-c-d - ...$
+  - (- a b c d ...) returns $a-b-c-d - ...$
   - (-a) == $-a$ (*must use at least one operand*) 
 - Multiplication  operator(*) 
-  - (* a b c d ...) == $a*b*c*d* ...$ 
+  - (* a b c d ...) returns $a*b*c*d* ...$ 
   - (*) returns 1 
 - Division operator(/) 
-  - (/ a b c d ...) == $a/b/c/d - ...$
+  - (/ a b c d ...) returns $a/b/c/d - ...$
   - (/a) == $1/a$ (*must use at least one operand*) 
   
   LISP expressions are valid when they are balanced (equal numbers of open and closed parenthesis) and proper operators usage on the operands.
