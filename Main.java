@@ -9,16 +9,15 @@ public class Main {
 
         for (int i=0; i<expr.length();) {
             if (Character.isAlphabetic(expr.charAt(i+1))) {
-                Double result = lispEvaluation.evaluate(expr);
-                System.out.print(result);
+                System.out.printf("You result is: %s\n", lispEvaluation.evaluate(expr).toString());
                 break;
             }
             else {
-                Double result2 = lispEvaluation2.evaluate(expr);
-                System.out.print(result2);
+                System.out.printf("You result is: %s\n", lispEvaluation2.evaluate(expr).toString());
                 break;
             }
         }
         scan.close();
+        System.out.println("Program concluded, rerun to use again.");
     }
 }
