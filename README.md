@@ -17,7 +17,7 @@ javac (all java files).java
 ```
 Windows: 
 ```
-javac*.java
+javac *.java
 ```
 
 # Running the program
