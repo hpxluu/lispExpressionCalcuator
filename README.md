@@ -10,25 +10,21 @@ during installation, enable **JAVA_HOME variable** and then click on the X drop 
 This will save the hassle to manually set the PATH from the environmental variables 
 
 # Compiling the program
+Navigate to the directory where the program folder is located then compile 
 Mac/Linux: 
 ```
-javac -cp .:junit-complie.jar *.java
+javac (all java files).java
 ```
 Windows: 
 ```
-javac -cp .;junit-complie.jar *.java
+javac*.java
 ```
 
 # Running the program
-
-Mac/Linux: 
+In the specific directory where the program folder is located then run these commands
+Mac/Linux/Windows: 
 ```
-java -cp .:junit-complie.jar Main
-```
-
-Windows: 
-```
-java -cp .;junit-complie.jar Main
+Main java
 ```
 
 # Behaviors 
