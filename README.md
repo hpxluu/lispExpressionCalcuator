@@ -11,6 +11,7 @@ This will save the hassle to manually set the PATH from the environmental variab
 
 # Compiling the program
 Navigate to the directory where the program folder is located then compile 
+
 Mac/Linux: 
 ```
 javac (all java files).java
