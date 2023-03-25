@@ -23,6 +23,7 @@ javac *.java
 
 # Running the program
 In the specific directory where the program folder is located then run these commands
+
 Mac/Linux/Windows: 
 ```
 Main java
