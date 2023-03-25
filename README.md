@@ -14,7 +14,9 @@ Navigate to the directory where the program folder is located then compile
 
 Mac/Linux: 
 ```
-javac (all java files).java
+javac Main.java
+javac lispEvaluation.java
+javac lispEvaluation2.java
 ```
 Windows: 
 ```
